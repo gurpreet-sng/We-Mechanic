@@ -1,0 +1,302 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    background-color: #f1f1f1;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    color: #333333;
+}
+.navbar-nav.me-auto{
+    margin-left: auto!important;
+    margin-right: 0px !important;
+}
+.space-left-right{
+    padding: 0px 50px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn.btn-lg.mainbutton{
+    background-color: #E91B23;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ffffff;
+}
+.spaceleft-right{
+    padding: 0px 60px;
+}
+.header-links-wrapper{
+    display: flex;
+}
+.header-links-wrapper .header-links{
+    margin-right: 60px;
+}
+.header-links h6{
+    color: #666666;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.header-links a{
+    color: #212226;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.social-icon-links ul{
+    margin: 0px;
+    padding: 0px;
+}
+.social-icon-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 5px;
+}
+.social-icon-links ul li a{
+    color: #666666;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #666666;
+    border-radius: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon-links{
+    text-align: right;
+}
+header{
+    margin-top: 0px;
+}
+.navbar{
+    background-color: #f8f8f8;
+    border-top:1px solid #DEDEDE;
+}
+.header-top-section{
+    background-color: #ffffff;
+    padding: 20px 12px 15px;
+}
+.mobile-menu-button{
+    display: none;
+}
+.we-mechanic-banner img{
+    width: 100%;
+}
+.mainbutton i{
+    margin-right: 10px;
+}
+.we-mechanic-banner .owl-carousel .owl-nav button.owl-next,.we-mechanic-banner .owl-carousel .owl-nav button.owl-prev{
+    background-color: #E91B23;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+.we-mechanic-banner .owl-carousel .owl-nav button.owl-next span,.we-mechanic-banner .owl-carousel .owl-nav button.owl-prev span{
+    width: 15px;
+    height: 14px;
+    display: block;
+    font-size: 0px;
+    margin: auto;
+}
+.we-mechanic-banner .owl-carousel .owl-nav button.owl-next span{
+    background-image: url("../images/owl-next.png");
+}
+.we-mechanic-banner .owl-carousel .owl-nav button.owl-prev span{
+    background-image: url("../images/owl-prev.png");
+}
+.we-mechanic-banner .owl-carousel .owl-nav button.owl-prev{
+    margin-bottom: 10px;
+}
+.we-mechanic-banner{
+    position: relative;
+}
+.we-mechanic-banner .owl-nav{
+    display: flex;
+    flex-direction: column;
+    width: 51px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    left: 40px;
+}
+.banner-form-wrapper .bd-example{
+    background-image: url("../images/Rectangle5.png");
+    background-size: cover;
+    padding: 40px;
+    margin: 50px !important;
+    position: relative;
+}
+.banner-form-wrapper{
+    position: absolute;
+    top: 0px;
+    right:0px;
+    z-index: 10;
+}
+.we-mechanic-banner .owl-carousel .owl-item img{
+    height: 600px;
+}
+.form-label{
+    color: #004B88;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.form-select{
+    border-radius: 0px;
+    height: 50px;
+}
+.form-control{
+    border-radius: 0px;
+    height: 50px;
+}
+.we-mechanic-banner .owl-carousel button.owl-dot{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #86868a;
+    border-radius: 20px;
+    margin: 0px 5px;
+}
+.we-mechanic-banner .owl-carousel button.owl-dot.active{
+    background-color: #e91b23;
+}
+.we-mechanic-banner .owl-dots{
+    text-align: center;
+    margin-top: -40px;
+    z-index: 10;
+    position: relative;
+}
+.form-select:focus{
+    box-shadow: none !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+.banner-form-wrapper .btn.btn-primary{
+    display: block;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border-radius: 0px;
+    background-color: #004B88;
+    border: 1px solid #004B88;
+}
+.banner-form-wrapper .btn.btn-primary i{
+    width: 13px;
+    height: 15px;
+    display: inline-block;
+    line-height: 10px;
+    margin-right: 10px;
+}
+.dot-one,.dot-two,.dot-three,.dot-four{
+    background-color: #005EFF;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+}
+.dot-one{
+    top: 0px;
+    left: 0px;
+}
+.dot-two{
+    top: 0px;
+    right: 0px;
+}
+.dot-three{
+    bottom: 0px;
+    left: 0px;
+}
+.dot-four{
+    bottom: 0px;
+    right: 0px;
+}
+.we-mechanic-banner .owl-carousel .owl-nav button.owl-next:hover, .we-mechanic-banner .owl-carousel .owl-nav button.owl-prev:hover{
+    opacity: 0.5;
+}
+.why-choose-box{
+    background-image: url("../images/abt.jpg");
+    padding: 60px;
+    background-size: cover;
+}
+.white-bg{
+    background-color: #ffffff;
+}
+.space-top-100{
+    padding-top: 100px;
+}
+.space-top-bottom-100{
+    padding: 100px 0px;
+}
+.small-title h6{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #004B88;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.small-title i{
+    position: relative;
+    top: -4px;
+}
+.small-title{
+    display: flex;
+}
+.section-title h2{
+    color: #212226;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.section-title h2 span{
+    color: #004B88;
+    font-style: italic;
+}
+.why-choose-box p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+.why-choose-box ul li i{
+    margin-right: 10px;
+}
+.why-choose-box ul li{
+    list-style: none;
+    display: flex;
+}
+.why-choose-box ul li p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.why-choose-box ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+.why-choose-box ul li{
+   width: 50%;
+}
+
+@media only screen and (min-width:1920px){
+
+    .container-fluid{
+        width: 1920px;
+    }
+}
+@media only screen and (max-width:767px){
+    
+    .mobile-menu-button{
+        display: block;
+    }
+}
