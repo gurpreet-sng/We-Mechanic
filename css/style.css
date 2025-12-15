@@ -287,7 +287,26 @@ header{
 .why-choose-box ul li{
    width: 50%;
 }
-
+.btn.btn-lg.mainbutton.blue{
+    background-color: #004B88;
+}
+.btn-and-num{
+    margin-top: 20px;
+}
+.service-section{
+    background-color: #ececec;
+    padding: 40px 0px;
+}
+.services{
+    text-align: center;
+}
+.services h6{
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
 @media only screen and (min-width:1920px){
 
     .container-fluid{
