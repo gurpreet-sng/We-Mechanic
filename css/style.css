@@ -307,8 +307,157 @@ header{
     text-transform: uppercase;
     margin-top: 10px;
 }
-
-
+.service-box.blue-box{
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#004b88+0,005eff+100 */
+    background: linear-gradient(to bottom,  #004b88 0%,#005eff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.service-box.red-box{
+    background-color: #E91B23;
+}
+.service-box{
+    border-radius: 20px;
+    padding: 40px 20px 20px 40px;
+}
+.tag-line i{
+    margin-right: 5px;
+}
+.blue-red-box-section{
+    background-color: #ffffff;
+    padding: 100px 0px;
+}
+.service-box .tag{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-style: normal;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.service-box h3{
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.red-car img{
+    width: 100%;
+}
+.tag-line{
+    display: block;
+}
+.tag-line{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    font-style: normal;
+}
+.service-box a{
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+.service-box a i{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    line-height: 28px;
+    margin-left: 10px;
+}
+.relible-section h2{
+    color: #004B88;
+    font-size: 50px;
+    line-height: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.relible-section h2 span{
+    color: #E91B23;
+    font-style: italic;
+}
+.spaceleft-right.relible-section .reliable-and-quality{
+    padding: 100px 0px;
+}
+.reliable-and-quality h2{
+    margin-bottom: 140px;
+}
+.services-text h6{
+    font-size: 18px;
+    font-weight: 500;
+}
+.services-text p{
+    color: #666666;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+.services-text a{
+    color: #004B88;
+    font-size: 16px;
+    text-decoration: none;
+}
+.services-text a i{
+    margin-right: 5px;
+    display: inline-block;
+}
+.our-services-list{
+    display: flex;
+}
+.our-services-list .services-icon{
+    margin-right: 20px;
+}
+.our-services-list{
+    border-bottom: 1px solid #EAEAEA;
+    padding: 20px;
+}
+.our-services-list-wrapper{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.reliable-and-quality{
+    background-image: url("../images/relible-bg.jpg");
+    background-size: cover;
+}
+.our-services-list-wrapper h5{
+    color: #004B88;
+    font-size: 16px;
+    font-weight: 700;
+}
+.our-services-list-wrapper h5 i{
+    margin-left: 10px;
+}
+.frequently-asked-questions h3{
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #212226;
+    text-transform: uppercase;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.frequently-asked-questions{
+    background-color: #ffffff;
+}
+.frequently-asked-questions .accordion{
+    width: 80%;
+    margin: auto;
+}
+.frequently-asked-questions .accordion-button{
+    color: #212226;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 @media only screen and (min-width:1920px){
 
     .container-fluid{
