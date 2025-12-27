@@ -797,4 +797,7 @@ header{
     .mobile-menu-button{
         display: block;
     }
+    .spaceleft-right {
+        padding: 0px 0px;
+    }
 }
