@@ -791,7 +791,9 @@ header{
     }
 }
 @media only screen and (max-width:767px){
-    
+    .header-links-wrapper{
+        flex-direction: column;
+    }
     .mobile-menu-button{
         display: block;
     }
