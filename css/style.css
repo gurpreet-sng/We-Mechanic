@@ -680,14 +680,13 @@ header{
     text-align: center;
     padding: 20px 0px;
 }
-.navbar-brand{
-
-}
-
 @media only screen and (min-width:1920px){
 
     .container-fluid{
         width: 1920px;
+    }
+    .frequently-asked-questions .accordion{
+        width: 1200px;
     }
 }
 @media only screen and (max-width:1024px){
