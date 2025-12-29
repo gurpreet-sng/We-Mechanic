@@ -722,8 +722,8 @@ header{
 }
 @media only screen and (min-width:1920px){
 
-    .container-fluid{
-        width: 1720px;
+    .container-fluid{ 
+        
     }
     .frequently-asked-questions .accordion{
         width: 1200px;
