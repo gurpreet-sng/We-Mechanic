@@ -5,6 +5,16 @@ body{
     font-size: 16px;
     background-color: #f1f1f1;
 }
+.inner-page-banner{
+    background-color: #E91B23;
+    padding: 120px 0px 200px;
+}
+.inner-page-banner h1{
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+}
 .navbar-expand-md .navbar-nav .nav-link{
     color: #333333;
 }
@@ -680,6 +690,15 @@ header{
     text-align: center;
     padding: 20px 0px;
 }
+.service-box-wrapper h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.service-box-wrapper.space-bottom-100{
+
+}
 @media only screen and (min-width:1920px){
 
     .container-fluid{
@@ -687,6 +706,21 @@ header{
     }
     .frequently-asked-questions .accordion{
         width: 1200px;
+    }
+}
+@media only screen and (max-width:1080px){
+
+}
+@media only screen and (min-width:1920px){
+
+}
+@media only screen and (max-width:1440px){
+
+}
+@media only screen and (max-width:1199px){
+
+    .call-for{
+        display: none;
     }
 }
 @media only screen and (max-width:1024px){
