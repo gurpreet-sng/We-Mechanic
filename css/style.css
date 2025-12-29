@@ -5,6 +5,7 @@ body{
     font-size: 16px;
     background-color: #f1f1f1;
 }
+
 .banner-form-wrapper.service-form.why-choose-box .bd-example.m-0.border-0{
     background-color: transparent;
     padding: 0px;
@@ -1013,5 +1014,9 @@ header{
     }
     .footer-bottom-wrapper ul li a{
         padding: 8px 3px;
+    }
+    .inner-page-banner.abt-page-banner h1{
+        margin-bottom: 0px;
+        font-size: 30px;
     }
 }

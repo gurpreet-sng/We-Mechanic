@@ -75,7 +75,7 @@
                                         <a href="about.html">About us</a>
                                     </li>
                                     <li>
-                                        <a href="index-page.html">Become a Partner</a>
+                                        <a href="index-page.html" data-bs-toggle="modal" data-bs-target="#exampleModal">Become a Partner</a>
                                     </li>
                                     <li><a href="contact.html">Contact us</a></li>
                                 </ul>
@@ -100,7 +100,7 @@
                                     <a class="nav-link" href="contact.html">Contact us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="btn btn-lg mainbutton" href="#" role="button"><i><img src="images/ar.png"></i> Get Appointment</a>
+                                    <a class="btn btn-lg mainbutton" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i><img src="images/ar.png"></i> Get Appointment</a>
                                 </li>
                             </ul>
                         </div>
@@ -111,51 +111,45 @@
 
         <div class="spaceleft-right">
             <div class="inner-page-banner abt-page-banner">
-                <h1>Contact Us</h1>
+                <h1>Become a Partner</h1>
             </div>
         </div>
         <div class="spaceleft-right">
             <div class="why-choose-us white-bg space-top-bottom-100">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                            <div class="why-choose-us-image">
-                                <img src="images/choose.png" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-12 col-md-12">
                            <div class="banner-form-wrapper service-form why-choose-box">
                                 <div class="bd-example m-0 border-0">
                                     <div class="section-title">
-                                        <div class="small-title"><h6>Contact Us</h6>
-                                        <i><img src="images/line.png"></i></div>
-                                        <h2>Get In <span>Touch</span></h2>
+                                        <h2>Partnership<span>Form</span></h2>
                                     </div>
                                     <form class="row g-3">
                                         <div class="col-md-6 m-0">
+                                            <label class="form-label">Enter Your Name</label>
                                             <input type="text" class="form-control" placeholder="Enter Your Name">
                                         </div>
                                         <div class="col-md-6 m-0">
+                                            <label class="form-label">Enter Your Email</label>
                                             <input type="email" class="form-control" placeholder="Enter Your Email">
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            <input type="text" class="form-control" placeholder="Select Location">
+                                            <label class="form-label">Enter Your Email</label>
+                                            <input type="tel" class="form-control" placeholder="Mobile Number">
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            <input type="email" class="form-control" placeholder="Enter Your Phone Number">
+                                            <label class="form-label">Company / Workshop Name</label>
+                                            <input type="text" class="form-control" placeholder="Company / Workshop Name">
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="inputCity" class="form-label">What is 7 - 2?</label>
-                                            <input type="text" placeholder="Enter answer" class="form-control" id="inputCity">
+                                            <label for="inputCity" class="form-label">City / Location</label>
+                                            <input type="text" placeholder="City / Location" class="form-control">
                                         </div>
-                                        <div class="col-md-12">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                                <label class="form-check-label" for="defaultCheck1">
-                                                    I agree to receive calls, e-mail, WhatsApp messages, and SMS from ACR.
-                                                </label>
-                                            </div>
+                                        <div class="col-md-6">
+                                            <label for="inputCity" class="form-label">Pin Code</label>
+                                            <input type="text" placeholder="Pin Code" class="form-control">
                                         </div>
+                                        
                                         <div class="col-12 mt-5">
                                             <button type="submit" class="btn btn-primary"><i><img src="images/ar.png"></i>Submit</button>
                                         </div> 
@@ -410,6 +404,71 @@
                 </div>
             </div>
         </div>
+
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"> Get Appointment</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row mb-2">
+            <div class="col">
+                <label>Full name</label>
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+                <label>Mobile Number</label>
+                <input type="tel" class="form-control" placeholder="Mobile Number" aria-label="Last name">
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col">
+                <label>Car Brand & Model</label>
+                <input type="text" class="form-control" placeholder="Car Brand & Model" aria-label="First name">
+            </div>
+            <div class="col">
+                <label>Service Required</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>General Service</option>
+                    <option value="1">Repair / Inspection</option>
+                    <option value="2">Accident / Insurance</option>
+                    <option value="3">Denting & Painting</option>
+                    <option value="4">Car Detailing</option>
+                </select>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col">
+                <label>Preferred Date</label>
+                <input type="date" class="form-control">
+            </div>
+            <div class="col">
+                <label>Preferred Time</label>
+                <input type="time" class="form-control">
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col">
+                <label>City / Location</label>
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col">
+                <label>Message (Optional)</label>
+                <textarea class="form-control" placeholder="Leave a comment here"></textarea>
+            </div>
+        </div>
+        <div class="col-12 mt-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
         <footer>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
