@@ -5,6 +5,14 @@ body{
     font-size: 16px;
     background-color: #f1f1f1;
 }
+.banner-form-wrapper.service-form.why-choose-box .bd-example.m-0.border-0{
+    background-color: transparent;
+    padding: 0px;
+}
+.banner-form-wrapper.service-form.why-choose-box .bd-example.m-0.border-0 .form-control{
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
 .inner-page-banner{
     background-color: #E91B23;
     padding: 120px 0px 180px;
@@ -884,11 +892,17 @@ header{
     .footer-links-section{
         padding: 40px 0px 10px;
     }
+    .footer-bottom-wrapper .col-lg-2{
+        margin-bottom: 20px;
+    }
+    .footer-bottom-wrapper .col-lg-6{
+        margin-bottom: 20px;
+    }
 }
 @media only screen and (max-width:767px){
 
-    .inner-page-banner.abt-page-banner h1{
-
+    .inner-page-banner.abt-page-banner{
+        padding: 40px 0px;
     }
     .form-select{
         height: 40px;
@@ -988,11 +1002,16 @@ header{
     }
     .inner-page-banner h1{
         font-size: 40px;
+        margin-bottom: 20px;
+        line-height: 50px;
     }
     .service-box-wrapper.space-bottom-100 {
         margin-top: -60px;
     }
     .inner-page-banner {
         padding: 60px 0px 80px;
+    }
+    .footer-bottom-wrapper ul li a{
+        padding: 8px 3px;
     }
 }
