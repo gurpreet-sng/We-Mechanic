@@ -788,9 +788,40 @@ header{
     }
     .owl-three .owl-nav{
         position: static;
+        margin-top: 20px;
+    }
+    .owl-three.owl-carousel .owl-nav button.owl-next, .owl-three.owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    .reliable-and-quality .col-lg-7.col-md-12{
+        margin-top: 30px;
+    }
+    .frequently-asked-questions .accordion{
+        width: 95%;
+    }
+}
+@media only screen and (max-width:991px){
+
+    .why-choose-us-image{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .spaceleft-right{
+        padding: 0px 20px;
+    }
+    .footer-links-section .col-lg-3{
+        margin-bottom: 20px;
+    }
+    .footer-links-section{
+        padding: 40px 0px 10px;
     }
 }
 @media only screen and (max-width:767px){
+
+    .form-select{
+        height: 40px;
+    }
     .header-links-wrapper{
         flex-direction: column;
     }
@@ -799,5 +830,83 @@ header{
     }
     .spaceleft-right {
         padding: 0px 0px;
+    }
+    .header-links-wrapper .header-links{
+        margin-right: 0px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .header-links-wrapper .header-links h6{
+        margin-bottom: 0px;
+    }
+    .header-top-section{
+        padding: 5px 12px 10px;
+    }
+    .navbar-brand{
+        width: 200px;
+    }
+    .banner-form-wrapper .bd-example{
+        margin: 30px 30px 30px 30px !important;
+    }
+    .banner-form-wrapper{
+        position: static; 
+    }
+    .social-icon-links ul li a{
+        font-size: 13px;
+    }
+    .social-icon-links ul li a{
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+    }
+    .header-links-wrapper{
+        display: none;
+    }
+    .social-icon-links{
+        margin-top: 5px;
+    }
+    .we-mechanic-banner .owl-one{
+        display: none;
+    }
+    .banner-form-wrapper .col-md-4{
+        margin-bottom: 10px;
+    }
+    .banner-form-wrapper .col-md-6{
+        margin-bottom: 10px !important;
+    }
+    .service-section .col-6.col-md-2{
+        margin-bottom: 20px;
+    }
+    .service-box.blue-box{
+        margin-bottom: 30px;
+    }
+    .section-title h2{
+        font-size: 25px;
+    }
+    .noida-drivers-trust-wrapper .row{
+        flex-direction: column-reverse;
+    }
+    .copywrite-text{
+        font-size: 14px;
+    }
+    .social-logo.border-0{
+        border: 1px solid #DEDEDE !important;
+    }
+    .blue-footer ul li a{
+        font-size: 12px;
+    }
+    .blue-footer ul li{
+        margin: 0px 10px;
+    }
+    .footer-links-section h5{
+        margin-bottom: 10px;
+    }
+    .banner-section-wrapper{
+        background-image: url("../images/Rectangle-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .form-control{
+        height: 40px;
     }
 }
